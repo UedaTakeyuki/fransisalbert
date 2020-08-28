@@ -1,3 +1,8 @@
+// fransisalbert
+//
+// Copyright 2020 Aterier UEDA
+// Author: Takeyuki UEDA
+
 package fransisalbert
 
 
