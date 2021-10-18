@@ -16,7 +16,7 @@ import (
  * getRequestBody
  */
 func GetRequestBody(c *gin.Context) (body []byte) {
-	buf := make([]byte, 2048)
+	buf := make([]byte, 4096)
 	n, _ := c.Request.Body.Read(buf)
 	//		body := string(buf[0:n])
 	body = buf[0:n]
